@@ -1,0 +1,397 @@
+/* Top Styles */
+#logoImg{
+    width: 90%;
+    margin-top: 10px!important;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.topBarTxt{
+    background: #00b894;
+    padding: 1px;
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    
+}
+
+
+#sloganOne{
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin-top: 0.5rem; */
+    margin: 0;
+}
+
+/*  Navigation styles */
+
+.navbar{
+    background: #DAE5DD;
+    box-shadow: 0 7px 18px -2px grey;
+    
+}
+/* Custom color for mobile toggler for menu */ 
+.custom-toggler.navbar-toggler {
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0, 0, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler-icon{
+    width: 25px;
+    height: 25px;
+}
+.nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+    font-weight: bold;
+    color:#000!important;
+}
+
+ .nav-item{
+    margin-left: 20px;
+} 
+
+#navbarNav a:hover {
+   color: #00B894!important;
+}
+/*  End Navigation styles */
+
+
+.view{
+    background-image: url(../imgs/bgMobile.jpg);
+    /* height: 600px; */
+    box-shadow: 0 7px 18px -2px grey;
+    background-size:cover;
+    /* width:100%; */
+}
+
+/* form styles */
+
+#saveOn{
+    /* background: rgba(255, 255, 255, 0.11)!important; */
+    font-size:18px;
+   color: #000;
+   font-weight: bold;
+   border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    background: #e4e4e4;
+    margin-bottom: 15px;
+}
+
+
+   #arrow{
+        display: none;
+    }
+
+form{
+    /* background: rgba(255, 255, 255, 0.5)!important; */
+    background: #e4e4e4!important;
+
+}
+
+.form-parts{
+    margin-top: 10px;
+}
+
+#submitBtn{
+    font-weight: bold;
+    color:#fff;
+    background: #00b894;
+    font-size:18px;
+}
+
+.btn:hover {
+  transition : 0.3s;
+  box-shadow : 0px 0px 1px 6px #0fdab1;
+  cursor : pointer;
+}
+
+#secureImg{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    margin-bottom: 10px
+}
+
+#disclaim{
+    margin-bottom: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #000;
+    margin-top: 15px;
+    font-size:10px;
+}
+
+/* After Form Styles */
+ #cityTop{
+    margin-top: 10px;
+    display: none;
+}
+
+/* Info Dropdowns Page Styles  */
+h2 {
+    font-family: Arial, Verdana;
+    font-weight: 800;
+    font-size: 37px;
+    /* font-size: 2.5rem; */
+    color: #091f2f;
+    text-transform: uppercase;
+}
+
+.panel-title {
+     color: #005A34; 
+}
+.panel a {
+  color: #005A34; 
+}
+.panel a:hover {
+  color: #364B44; 
+  cursor: pointer;
+}
+
+.panel-title:hover, .accordion-section:hover{
+    color: rgb(0, 128, 74);
+}
+
+/* &gt;  removes gray around text when added to the below css class*/
+.accordion-section .panel-default  .panel-heading {
+    border: 0;
+    background: #eaeaea;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.panel-heading i{
+    font-size: 40px;
+    /* content: "\f102"; */
+    color: #00b894;
+    float: right;
+    margin-top: -27px;
+}
+
+/* .accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f103";
+} */
+.accordion-section .panel-default .panel-body {
+    font-size: 18px;
+    color: #000;
+}
+/* END Info Dropdowns Page Styles  */
+
+.colorThreeSec{
+    background:#00b894;
+    padding:10px; 
+    color: #fff;
+}
+.ctaBtn{
+    color: #000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    background: #65CB8E; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    line-height: 100px;
+    font-family: Arial;
+    margin-bottom:20px; 
+    margin-top:5px; 
+}
+
+.contentThree{
+    height:2px;
+    background: #00b894;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#00b894), to(#00b894), color-stop(50%, #fff));
+    margin-bottom: 15px;
+}
+
+/* 425 and smaller
+  .ctaBtn{
+        width: 200px;
+        font-size: 175%;
+        line-height: 75px;
+        font-family: Arial;
+        margin-bottom:15px; 
+        margin-top:15px; 
+    }
+ */
+
+/*   footer section */
+/* section logo above footer */
+#sectionFive{
+    background-color: #e6e6e6;
+   
+}
+/* footer */
+#footerLogo{
+    width:90%;
+    margin:15px;
+}
+.lineFade{ 
+    height:1px;
+    background: #e6e6e6;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#e6e6e6), to(#e6e6e6), color-stop(50%, #00b894));
+}
+/*   end third section */
+footer{
+    background-color: #e6e6e6;
+    color: black;
+}
+
+footer a{
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #2c2c2c;
+}
+footer a:hover{
+    color: #1d3d36;
+}
+
+#altLinks{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+#copyRight{
+    font-size: 12px;
+}
+/*   end footer section */
+
+/* =========================== Outer page Styles ===========================*/
+
+.container .row h1{
+    text-align:center;
+    margin-top: 10px;
+}
+
+
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+ 
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+ 
+/* Needed to bring up the image for the shadow */
+@media (min-width: 529px) {
+   
+}
+ 
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+    #cityTop{
+        display: none;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+
+    .view{
+        background-image: url(../imgs/bgImg.jpg);
+    }
+    #logoImg{
+        width: 100%;
+        margin-top: 10px;
+    }
+    #saveOn{
+        margin-bottom:15px;
+        color: black;
+        font-weight: bold;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+        background: #e4e4e4;
+    }
+    #list-left, #list-right {
+      color: black;
+      font-weight: bold;
+  /*     -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white; */
+    }
+    .marLeft-auto{
+        margin-top: auto;
+    }
+     #cityTop{
+        display: block;
+    }
+    #footerLogo{
+        width:50%;
+        margin:15px;
+    }
+   
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #logoImg{
+        margin-top: 5px;
+        width: 90%;
+    }
+    .marLeft-auto{
+        margin-top: 0;
+    }
+    #saveOn{
+        margin-bottom:15px;
+        color: white;
+        background: rgba(255, 255, 255, 0);
+        border: rgba(255, 255, 255, 0);
+    }
+    #list-left, #list-right {
+      color: white;
+    }
+    #list-left {
+        float: left
+    }
+    #list-right {
+        float: right;
+    }
+    
+    
+}
+
+/* @media (min-width: 1079px) {
+     #arrow{
+        display: none;
+    }
+} */
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    form{
+        background: rgba(255, 255, 255, 0.5)!important;
+    }
+    .marLeft-auto{
+        margin-left: auto;
+    }
+    #arrow{
+        display: block;
+        position: absolute;
+        /* height: 31px; */
+        top: 101px;
+        left: 592px;
+    }
+}
+ 

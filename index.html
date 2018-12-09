@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>That Boomer Lifestyle</title>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+            crossorigin="anonymous">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+            crossorigin="anonymous">
+
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- favicon -->
+        <link rel="icon" href="imgs/fav.png" type="image/ico" sizes="16x16">
+    </head>
+
+    <body>
+        <!-- Top Section top bar with number, bottom bar tagtext and form -->
+        <header>
+            <div class="container">
+                <div class="row" style="background: #fff; padding-bottom:5px;">
+                    <div class="col-md-6">
+                        <img src="imgs/logo.png" class="img-responsive" id="logoImg" alt="That Boomer Lifestyle">
+                    </div>
+                    <div class="col-md-6 text-right">
+                       <h5 id="cityTop">
+                           Senior Savings<br>in <span style="font-size:24px;color:#00b894;">Your City</span>
+                       </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="topBarTxt">
+                <div class="col-12">
+                    <h4 class="h4-responsive" id="sloganOne">Discounts on Products &amp; Services for Seniors</h4>
+                </div>
+            </div>
+            <!-- Navigation Section  -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="finance.html">Finance</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="health.html">Health</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="entertainment.html">Entertainment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="relationships.html">Relationships</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Full Page Intro -->
+            <div class="view">
+                <!-- Mask & flexbox options-->
+                <div class="mask rgba-gradient d-flex justify-content-center align-items-center"></div>
+                <!-- Content -->
+                <div class="container">
+            
+                    <!-- Left Side Text  -->
+                    <div class="row pt-2">
+            
+                        <!--Grid column-->
+                        <div class="col-lg-8 col-md-7 pt-2 marLeft-auto text-md-left bottomMobile">
+                           
+                            <div class="col-lg-8 col-md-7 ml-auto" id="saveOn">
+                                <h4>Save on: </h4>
+                                <table id="list-left">
+                                    <tr>
+                                        <th>
+                                            <i class="fas fa-money-bill-wave fa-fw"></i>
+                                        </th>
+                                        <td>General Discounts</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <i class="fas fa-home fa-fw"></i>
+                                        </th>
+                                        <td>Home Mortgage</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <i class="fas fa-toolbox fa-fw"></i>
+                                        </th>
+                                        <td>Home Services</td>
+                                    </tr>
+                                    </table>
+                                    <table id="list-right" >
+                                    <tr>
+                                        <th>
+                                            <i class="fas fa-umbrella fa-fw"></i>
+                                        </th>
+                                        <td>Insurance</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <i class="fas fa-dollar-sign fa-fw"></i>
+                                        </th>
+                                        <td>Investments</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <i class="fas fa-briefcase-medical fa-fw"></i>
+                                        </th>
+                                        <td>Medical Products</td>
+                                    </tr>                            
+                                </table>
+                                
+                            </div>
+                            <div id="arrow">
+                                <img src="imgs/arrow.png" style="width: 169px;">
+                            </div>
+                        </div>
+                        <!--  Right Side form  -->
+                        <div class="col-lg-4 col-md-5 mb-3 pt-2 ml-auto topMobile">
+            
+                            <!--Form-->
+                            <form class="card" id="form" data-toggle="validator" action="submit.html" >
+                                 <!-- onSubmit="if(!confirm('Thanks for contacting us! We will be in touch with you shortly.')){return false;}" -->
+                                <div class="card-body">
+                                    <!--Header of form-->
+                                    <div class="text-center">
+                                        <h3 class="white-text">Find Savings Today!</h3>
+                                        <hr class="hr-light">
+                                    </div>
+                                    <!--Body of form-->
+                                    <div class="row">
+            
+                                    <!-- First name form field-->
+                                    <div class="md-form col-12">
+                                        <input type="text" id="fName-form" class="white-text form-control form-parts" placeholder="First Name" required="required">
+                                    </div>
+            
+                                    <!-- Email form field-->
+                                    <div class="md-form col-12">
+                                        <input type="email" id="email-form" class="white-text form-control form-parts" placeholder="Email" data-error="Bruh, that email address is invalid"
+                                            required="required">
+                                    </div>
+            
+                                    <div class="text-center col-12">
+                                        <button class="btn btn-block form-parts" id="submitBtn" type="submit">GET STARTED NOW!</button>
+                                        <div id="messages_content"></div>
+                                    </div>
+                                    <div class="md-form">
+                                        <img src="imgs/secure.png" alt="secure" id="secureImg">
+                                        <hr class="hr-light" style="margin:1px">
+                                        <p id="disclaim" >
+                                            By clicking the "GET STARTED NOW!" button, you agree to our Privacy Policy and authorize That Boomer Lifestyle and its partners
+                                            to contact you at the phone number you entered using automated technology including auto-dialers,
+                                            pre-recorded messages, and text messages, even if your phone is a mobile number or is currently
+                                            listed on any state, federal, or corporate "Do Not Call" list, and you are not required to
+                                            give your consent as a condition of service.</p>
+            
+                                    </div>
+                                </div>
+                            </form>
+                            <!--/. End of Form-->
+                        </div> 
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </div>
+                <!-- Content -->
+            </div>
+            <!-- Mask & flexbox options-->
+            <!-- Full Page Intro -->
+        </header>
+        <div class="container">
+            <div class="row py-4">
+                
+                    <div class="col-lg-12">
+                    <h2>That Boomer Lifestyle Helps you Save Money</h2>
+                    <p style="font-size: 18px;">
+                         That Boomer Lifestyle is dedicated to helping baby boomers find discounts and benefits on various programs. If you are 55
+                        or older, you have paid your dues, have worked for years, and now it is time for you to reap the rewards. There are plentiful
+                        discounts and ways to save, and the trick is knowing about them! This is where we do the hard work for you, as we consistently
+                        research new programs and ways for you save. We have a large network of partners that work together to find you savings on
+                        your home mortgage, medical products, insurance, home services, investment opportunities and much more. Fill out the form
+                        above to get started!
+                    </p>
+                    </div>
+            </div> 
+        </div>
+
+
+        <!-- Start Site Content Section  -->
+        <!-- Info Dropdowns -->
+        <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
+            <div class="container">
+        
+                <h2>Save Time &amp; Money Today!</h2>
+        
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
+                            <h3 class="panel-title">
+                                <a class=role="button" title="Find Savings" onclick="scrollToTop(200)">
+                                     Home Mortgage 
+                                </a>
+                                <i class="fas fa-angle-double-up"></i>
+
+                            </h3>
+                        </div>
+                        <div>
+                            <div class="panel-body px-3 mb-4">
+                                <p>
+                                     That Boomer Lifestyle works to provide you with the best rates on home mortgages. Find the right mortgage that suits you,
+                                    whether it is a reverse mortgage, FHA Loan, VA Loan, or even your first home. Or if you want to save money on your current
+                                    mortgage, we will assist you in refinancing and help you get the rate you deserve. Let us help you with one of your most
+                                    important assets – your home.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="panel panel-default">
+                        <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+                            <h3 class="panel-title">
+                                <a class=role="button" title="Find Savings" onclick="scrollToTop(200)">
+                                 Home Services
+                                </a>
+                                <i class="fas fa-angle-double-up"></i>
+                            </h3>
+                        </div>
+                        <div>
+                            <div class="panel-body px-3 mb-4">
+                                <p>
+                                     When it comes to owning a home, one of the most important things is protecting it. We make it easy to find the most competitive
+                                    rates to save you money on home insurance, security systems, energy bills, cable and phone bills, even a home warranty for
+                                    those expensive appliances and HVAC systems. That Boomer Lifestyle is here to help you!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="panel panel-default">
+                        <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
+                            <h3 class="panel-title">
+                                <a class=role="button" title="Find Savings" onclick="scrollToTop(200)">
+                                     Insurance for Your Home, Car, Family and Life
+                                </a>
+                                <i class="fas fa-angle-double-up"></i>
+                            </h3>
+                        </div>
+                        <div>
+                            <div class="panel-body px-3 mb-4">
+                                <p>
+                                 Our network of insurance carriers for life, auto, home, and even final expense is something we take pride in at That Boomer
+                                Lifestyle. We make it easy to find the most competitive rates to protect your family and other valuable assets. We even
+                                work with Medicare to help you find affordable health insurance solutions. Leave the hard work to us!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="panel panel-default">
+                        <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
+                            <h3 class="panel-title">
+                                <a class=role="button" title="Find Savings" onclick="scrollToTop(200)">
+                                     Investment Opportunities
+                                </a>
+                                <i class="fas fa-angle-double-up"></i>
+                            </h3>
+                        </div>
+                        <div>
+                            <div class="panel-body px-3 mb-4">
+                                <p> 
+                                    That Boomer Life Style works to provide you with special investment opportunities to meet your needs. Our goal is to help
+                                    you secure and steadily grow your retirement assets such as a 401k or IRA. We work with everything from top precious metal
+                                    providers that convert assets into physical Gold or Silver, to even digital currencies such as bitcoin. We have many different
+                                    opportunities to maximize the performance of your liquid assets.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="panel panel-default">
+                        <div class="panel-heading p-3 mb-3" role="tab" id="heading4">
+                            <h3 class="panel-title">
+                                <a class=role="button" title="Find Savings" onclick="scrollToTop(200)">
+                                     Medical Products
+                                </a>
+                                <i class="fas fa-angle-double-up"></i>
+                            </h3>
+                        </div>
+                        <div>
+                            <div class="panel-body px-3 mb-4">
+                                <p>
+                                 As you get older, your medical needs increase in ways you never imagined - often very expensive ways! That Boomer Lifestyle
+                                created a network of necessary and innovative products to make your life easier. We work with major brands of products and
+                                services from walk in tubs, to customized hearing aids, to lifeline devices, to portable oxygen machines, to diabetic testing
+                                devices, and so much more. Fill out the form above to find the discounted products in your area.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        
+        
+                    <div class="panel panel-default">
+                        <div class="panel-heading p-3 mb-3" role="tab" id="heading6">
+                            <h3 class="panel-title">
+                                <a class=role="button" title="Find Savings" onclick="scrollToTop(200)">
+                                    More Ways Towards Senior Savings!
+                                </a>
+                                <i class="fas fa-angle-double-up"></i>
+                            </h3>
+                        </div>
+                        <div >
+                            <div class="panel-body px-3 mb-4">
+                                <p>
+                                     That Boomer Life Style is consistently expanding its network of partners, products and services. We are always searching
+                                    for new and improved products to make your life better. We work with respected brands to secure special pricing and discounts
+                                    for you. Always keep up to date with our latest offerings by filling out the form above.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </section><!-- End Info Dropdowns -->
+        <!-- CTA button -->
+        <button type="button" onclick="scrollToTop(200)" class="btn hoverable ctaBtn" title="Get Started">Get Started Today</button>
+        <!-- Three Col Section -->
+
+        <div class="lineFade"></div>
+        <!-- Section Logo above footer -->
+        <div id="sectionFive">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <img class="img-responsive" id="footerLogo" alt="That Boomer Lifestyle Logo" src="imgs/logo.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blue line fade -->
+        <div class="lineFade"></div>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="container">
+                <div class="row py-2">
+                    <div class="col-lg-12 text-center" id="altLinks">
+                        <a href="#">Privacy Policy</a> |
+                        <a href="#">Terms of Use</a> |
+                        <a href="#">Unsubscribe</a>
+                    </div>
+                    <div class="col-lg-12 text-center" id="copyRight">
+                        &copy; 2018
+                        <a href="#url#"> ThatBoomerLifestyle.com</a> All Rights Reserved.
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- SCRIPTS -->
+        <!-- JQuery -->
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+            crossorigin="anonymous"></script>
+        <!-- Custom Js -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
