@@ -189,6 +189,31 @@ h2 {
 }
 /* END Info Dropdowns Page Styles  */
 
+/* Finance page styles */
+.startBtn{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+/* END Finance page styles */
+
+
+
+/* General class style for offers */
+.offerStyle{
+    padding: 15px;
+    background-color: #f7f7f7;
+    border:2px solid #757474;
+    border-radius: 10px;
+}
+.offerStyle2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+
 .colorThreeSec{
     background:#00b894;
     padding:10px; 
