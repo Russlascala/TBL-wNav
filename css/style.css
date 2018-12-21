@@ -46,6 +46,7 @@
 }
 .nav-link {
     padding-top: 0;
+    font-size: 19px;
     padding-bottom: 0;
     padding-right: 1.5rem!important;
     padding-left: 1.5rem!important;
@@ -108,7 +109,7 @@ form{
 
 .btn:hover {
   transition : 0.3s;
-  box-shadow : 0px 0px 1px 6px #0fdab1;
+  box-shadow : 0px 0px 1px 3px #0fdab1;
   cursor : pointer;
 }
 
@@ -189,13 +190,6 @@ h2 {
 }
 /* END Info Dropdowns Page Styles  */
 
-/* Finance page styles */
-.startBtn{
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 15px;
-}
-/* END Finance page styles */
 
 
 
@@ -205,12 +199,34 @@ h2 {
     background-color: #f7f7f7;
     border:2px solid #757474;
     border-radius: 10px;
+    margin-top: 35px;
 }
-.offerStyle2{
-    padding-top: 15px;
-    padding-bottom: 15px;
+.startBtn{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+.showMoreBtn {
+    margin-top: 35px;
+    margin-left:35px;
+    background-color: #00b894;
+    font-weight: bold;
 }
 
+/* END General style for offers */
+
+/* About page */
+
+.aboutSpecials{
+    margin-top: 30px;
+    padding:16px;
+}
+
+.btn-abouts{
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing:.2px;
+}
 
 
 
@@ -231,8 +247,16 @@ h2 {
     font-size: 200%;
     line-height: 100px;
     font-family: Arial;
-    margin-bottom:20px; 
-    margin-top:5px; 
+    margin-bottom:35px; 
+    margin-top:35px; 
+}
+
+.ctaBtn a{
+    color: #000;    
+}
+
+.ctaBtn a:hover{
+    text-decoration: none;    
 }
 
 .contentThree{
