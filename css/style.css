@@ -213,14 +213,15 @@ h2 {
     font-weight: bold;
 }
 
+
+
+
+}
+
 /* END General style for offers */
 
 /* About page */
 
-.aboutSpecials{
-    /*margin-top: 30px;*/
-    padding:16px;
-}
 .bgTxt{
     font-size: 24px;
 }
@@ -229,6 +230,7 @@ h2 {
     font-size: 17px;
     font-weight: bold;
     letter-spacing:.2px;
+    margin-top: 30px;
 }
 
 
@@ -247,7 +249,7 @@ h2 {
     background: #65CB8E; 
     text-align: center;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 185%;
     line-height: 100px;
     font-family: Arial;
     margin-bottom:35px; 
@@ -325,7 +327,14 @@ footer a:hover{
 
 .container .row h1{
     text-align:center;
-    margin-top: 10px;
+    font-family: Arial, Verdana;
+    font-weight: 800;
+    font-size: 28px;
+    margin-top:30px;
+    margin-bottom:-5px;
+    /* font-size: 2.5rem; */
+    color: #091f2f;
+    text-transform: uppercase;
 }
 
 
@@ -421,7 +430,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         float: right;
     }
     
-    
+    .container .row h1{
+        font-size: 37px;
+    }
 }
 
 /* @media (min-width: 1079px) {
