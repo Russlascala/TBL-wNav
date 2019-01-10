@@ -214,7 +214,6 @@ h2 {
 }
 
 .engageBar{
-    background-color: #005A34;
     color: white;
     font-weight: bold;
     letter-spacing: .1px;
@@ -226,6 +225,39 @@ h2 {
     margin-bottom: 0px;
     margin-left: 15px;
 }
+
+
+.flagContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.newsLabel{
+    padding:10px;
+    color: #fff;
+    background-color: #005A34;
+    width:160px;
+    /* margin:30px; */
+}
+
+.newsLabel:before {
+    content: ' ';
+    height: 0;
+    top: 0;
+    position: absolute;
+    width: 20px;
+    left: 160px;
+    border: 22px solid transparent;
+    border-left-color: #005A34;
+}
+
+.newsTitle{
+    background-color:#fff;
+    color:#000;
+    margin-left:auto;
+    font-size:18px;
+}
+
 
 .arrow{
   border-style: dashed;
@@ -462,9 +494,31 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     }
    
 }
- 
+
+@media (max-width: 992px){
+
+    .flagContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100px;
+    }
+    .newsTitle{margin-left: 0;}
+    .carousel-control-next {
+        right: 10px;
+    }
+    .carousel-control-prev {
+        right: 75px;
+        left:75%;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        top: -58px;
+    }
+}
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+
     #logoImg{
         margin-top: 5px;
         width: 90%;
