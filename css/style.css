@@ -240,6 +240,10 @@ h2 {
     /* margin:30px; */
 }
 
+.barBorder{
+    border:1px solid #dadada;
+}
+
 .newsLabel:before {
     content: ' ';
     height: 0;
