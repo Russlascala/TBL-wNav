@@ -258,7 +258,8 @@ h2 {
 .newsTitle{
     background-color:#fff;
     color:#000;
-    margin-left:auto;
+    /*margin-left:auto;*/
+    margin-left: 40px;
     font-size:18px;
 }
 
