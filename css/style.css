@@ -235,13 +235,14 @@ h2 {
 .newsLabel{
     padding:10px;
     color: #fff;
-    background-color: #005A34;
+    background-color: #e74c3c;
     width:160px;
-    /* margin:30px; */
+    margin-left:0; 
 }
 
 .newsBorder{
     border:1px solid #dadada;
+    margin-top: 5px;
 }
 
 .newsLabel:before {
@@ -252,7 +253,7 @@ h2 {
     width: 20px;
     left: 160px;
     border: 22px solid transparent;
-    border-left-color: #005A34;
+    border-left-color: #e74c3c;
 }
 
 .newsTitle{
@@ -263,27 +264,12 @@ h2 {
     font-size:18px;
     color: #0070D1;
 }
-
-
-.arrow{
-  border-style: dashed;
-    border-color: transparent;
-    border-width: 0.20em;
-    display: -moz-inline-box;
+.newsRead{
+    color:#0070D1;
+    margin-left:15px;
     display: inline-block;
-    /* Use font-size to control the size of the arrow. */
-    font-size: 100px;
-    height: 0;
-    line-height: 0;
-    position: relative;
-    vertical-align: middle;
-    width: 0;
-    background-color:#fff; /* change background color acc to bg color */ 
-    border-left-width: 0.2em;
-    border-left-style: solid;
-    border-left-color: #005A34;
-    left:0.25em;
 }
+
 
 .news-slider{  padding-left:15px!important;}
 
@@ -510,9 +496,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        height: 100px;
+        height: 130px;
     }
     .newsTitle{margin-left: 0;}
+    
     .carousel-control-next {
         right: 10px;
     }
@@ -521,8 +508,13 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         left:75%;
     }
     .carousel-control-next, .carousel-control-prev {
-        top: -58px;
+        top: 0px;
+        height: 40px;
     }
+}
+@media (min-width: 992px){
+    .newsLabel{margin-left:30px}
+    .newsLabel:before{left:190px}
 }
 
 /* Large devices (desktops, 992px and up) */
