@@ -301,6 +301,9 @@ h2 {
     width:5%;
 }
 
+.carousel{
+    width:100%;
+}
 .carousel-indicators{
     bottom:-30px;
 }
