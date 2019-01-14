@@ -240,6 +240,12 @@ h2 {
     margin-left:0; 
 }
 
+
+.newsLabel:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
 .newsBorder{
     border:1px solid #dadada;
     margin-top: 5px;
@@ -264,10 +270,14 @@ h2 {
     font-size:18px;
     color: #0070D1;
 }
+
 .newsRead{
     color:#0070D1;
     margin-left:15px;
     display: inline-block;
+}
+.newsRead:hover{
+    text-decoration: underline;
 }
 
 
