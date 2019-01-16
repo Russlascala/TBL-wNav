@@ -271,9 +271,17 @@ h2 {
     color: #0070D1;
 }
 
+/* need to adjust media queries for this.*/
 .newsRead{
-    color:#0070D1;
-    margin-left:15px;
+    color: #fff;
+    background-color: #00b894;
+    padding: 4px;
+    border-radius: 8px;
+    /* margin-left: 15px; */
+    position: absolute;
+    right: 30px;
+    top: 7px;
+    margin-right: auto;
     display: inline-block;
 }
 .newsRead:hover{
