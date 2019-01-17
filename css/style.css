@@ -181,9 +181,6 @@ h2 {
     margin-top: -27px;
 }
 
-/* .accordion-section .panel-default .panel-title a.collapsed:after {
-    content: "\f103";
-} */
 .accordion-section .panel-default .panel-body {
     font-size: 18px;
     color: #000;
@@ -227,11 +224,21 @@ h2 {
 }
 
 
-.flagContainer{
-    position: relative;
-    display: flex;
-    align-items: center;
-}
+    .carousel-control-next {
+        right: 10px;
+    }
+    .carousel-control-prev {
+        right: 75px;
+        left:75%;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        top: 0px;
+        height: 40px;
+    } 
+
+
+
+
 .newsLabel{
     padding:10px;
     color: #fff;
@@ -257,18 +264,19 @@ h2 {
     top: 0;
     position: absolute;
     width: 20px;
-    left: 160px;
+    left: 175px;
     border: 22px solid transparent;
     border-left-color: #e74c3c;
-}
+} 
 
 .newsTitle{
     background-color:#fff;
     color:#000;
     /*margin-left:auto;*/
-    margin-left: 40px;
+    margin-left: 0;
     font-size:18px;
     color: #0070D1;
+    display: inline-block;
 }
 
 /* need to adjust media queries for this.*/
@@ -279,12 +287,12 @@ h2 {
     border-radius: 8px;
     /* margin-left: 15px; */
     position: absolute;
-    right: 30px;
-    top: 7px;
+    right: 1%;
+    top: 75%;
     margin-right: auto;
     display: inline-block;
 }
-.newsRead:hover{
+.newsRead:hover .newsTitle:hover{
     text-decoration: underline;
 }
 
@@ -303,6 +311,10 @@ h2 {
 
 .carousel-control-next, .carousel-control-prev {
     width:5%;
+}
+
+.flagContainer{
+    height:140px;
 }
 
 .carousel{
@@ -458,18 +470,19 @@ Extra small devices (portrait phones, less than 544px)
 No media query since this is the default in Bootstrap because it is "mobile first"
 */
  
-/* Needed to bring up the image for the shadow */
-@media (min-width: 529px) {
-   
-}
+
  
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {  
     #cityTop{
         display: none;
     }
-
+    .flagContainer{
+        height:140px;
+    }
 }
+
+
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
@@ -481,6 +494,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         width: 100%;
         margin-top: 10px;
     }
+   
+    
     #saveOn{
         margin-bottom:15px;
         color: black;
@@ -505,35 +520,17 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         width:50%;
         margin:15px;
     }
+    .flagContainer{
+        height: 100px;
+    }
+    .newsRead{
+        top:60%;
+
+    }
    
 }
 
-@media (max-width: 992px){
 
-    .flagContainer{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        /* height: 130px; */
-    }
-    .newsTitle{margin-left: 0;}
-    
-    .carousel-control-next {
-        right: 10px;
-    }
-    .carousel-control-prev {
-        right: 75px;
-        left:75%;
-    }
-    .carousel-control-next, .carousel-control-prev {
-        top: 0px;
-        height: 40px;
-    }
-}
-@media (min-width: 992px){
-    .newsLabel{margin-left:30px}
-    .newsLabel:before{left:190px}
-}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
@@ -560,17 +557,32 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     #list-right {
         float: right;
     }
-    
+      .flagContainer{
+        display: flex;
+        align-items: center;
+        height: 44px;
+      }
     .container .row h1{
         font-size: 37px;
     }
+    .newsLabel{margin-left:30px}
+    .newsLabel:before{left:205px} 
+    .newsTitle{margin-left:40px;}
+    .newsRead{right: 45px;top:7px}
+    .carousel-control-next {
+        right: 0;
+    }
+    .carousel-control-prev {
+        right: 0;
+        left:0;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        top: 0px;
+        height: auto;
+    } 
 }
 
-/* @media (min-width: 1079px) {
-     #arrow{
-        display: none;
-    }
-} */
+
  
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
