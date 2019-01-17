@@ -33,8 +33,9 @@ function scrollToTop(scrollDuration) {
 
 var theContainer = $('.flagContainer');
 var contArr = theContainer.toArray();
-var contain1 = contArr[0].clientHeight();
-var contain2 = contArr[0].clientHeight();
+console.log(contArr)
+var contain1 = contArr[0].clientHeight;
+var contain2 = contArr[1].clientHeight;
 console.log('first container height: ' + contain1);
 console.log('second container height: ' + contain2);
 
