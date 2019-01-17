@@ -31,13 +31,5 @@ function scrollToTop(scrollDuration) {
         }, 15);
 }
 
-var theContainer = $('.flagContainer');
-var contArr = theContainer.toArray();
-console.log(contArr)
-var contain1 = contArr[0].clientHeight;
-var contain2 = contArr[1].clientHeight;
-console.log('first container height: ' + contain1);
-console.log('second container height: ' + contain2);
-
 
  
