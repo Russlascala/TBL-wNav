@@ -1,3 +1,7 @@
+
+/* FontAwesome */
+@import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
+
 /* Top Styles */
 #logoImg{
     width: 90%;
@@ -334,6 +338,47 @@ h2 {
 }
 
 /* END General style for offers */
+
+/* START Article Styles */
+.sidebar{
+    height: 100%;
+}
+.articleContent{
+    margin-top:35px;
+}
+.sidebarArticle h6{
+    margin-top: 25px;
+}
+.sidebarArticle a {
+    color: #0070D1;
+}
+.sidebar ul li{
+    list-style-type: none;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar li {
+  padding-left: 1.3em;
+}
+.sidebar ul li a {
+    color:#007484;
+}
+.sidebar li:before {
+  content: "\f05a"; /* FontAwesome Unicode */
+  font-family: 'Font Awesome\ 5 Free';
+  font-weight: 900;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+  color:#00B894;
+}
+
+.adImg{
+    margin-top: 25px;
+}
+/* END Article Styles */
 
 /* About page */
 
