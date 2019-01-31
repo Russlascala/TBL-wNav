@@ -377,7 +377,9 @@ h2 {
   width: 1.3em; /* same as padding-left set on li */
   color:#00B894;
 }
-
+.infoSideBarLinks{
+    margin-top:1rem;
+}
 .adImg{
     margin-top: 25px;
 }
