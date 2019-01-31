@@ -342,12 +342,15 @@ h2 {
 /* START Article Styles */
 .sidebar{
     height: 100%;
+    padding: 15px 15px 55px 15px;
 }
 .articleContent{
     margin-top:35px;
 }
 .sidebarArticle h6{
-    margin-top: 25px;
+    margin-top: 1rem;
+    font-size:18px;
+    text-decoration: underline;
 }
 .sidebarArticle a {
     color: #0070D1;
